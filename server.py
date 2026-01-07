@@ -5,7 +5,7 @@ import uvicorn
 from typing import Optional
 from db import get_recent_pets, get_db_connection
 
-app = FastAPI(title="Pet Hunter API", description="搜集全台走失寵物資料", version="2.0")
+app = FastAPI(title="Pet Hunter API", description="搜集全台走失寵物資料", version="2.1")
 
 # 允許跨域
 app.add_middleware(
